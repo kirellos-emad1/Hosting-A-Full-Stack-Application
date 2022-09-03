@@ -10,8 +10,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://kirellos/"
-  },
+    "deploy": "npm install -f && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh" 
+   },
   "private": true,
   "dependencies": {
     "@angular/common": "^8.2.14",
