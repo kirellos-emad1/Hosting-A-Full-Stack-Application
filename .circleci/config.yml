@@ -25,7 +25,7 @@ jobs:
           name: Front-End Install
           command: |
             npm run frontend:install
-	# TODO: Lint the frontend
+	    # TODO: Lint the frontend
       - run:
           name: Front-End Lint
           command: |
@@ -36,8 +36,8 @@ jobs:
           name: Front-End Build
           command: |
             npm run frontend:build  
-	# build api
-	- run:
+	    # build api
+	    - run:
           name: api Build
           command: |
             npm run backend:build
@@ -52,13 +52,15 @@ jobs:
       - eb/setup
       - aws-cli/setup
       - checkout
+      # deploy front end
       - run:
           name: Deploy backend
           # TODO: deploy api
           command: |
             echo "# TODO: Install, build, deploy backend"
             npm run api:deploy
-	- run:
+      # deploy backend
+	    - run:
           name: Deploy frontend
           # TODO: deploy api
           command: |
