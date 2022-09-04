@@ -4,9 +4,9 @@ This application is provided to you as an alternative starter project if you do 
 
 ## App links
 ### Back-end link
-http://udagramapi-env.eba-pjqmxcn2.us-east-1.elasticbeanstalk.com/
+http://udagram-api-kirellos.eba-ymtfzxaw.us-east-1.elasticbeanstalk.com/
 ### Front-end link
-http://hnd-uda-bucket.s3-website-us-east-1.amazonaws.com
+http://udagram-kirellos.s3-website-us-east-1.amazonaws.com/home
 
 ## Getting Started
 
