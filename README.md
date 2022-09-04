@@ -6,7 +6,7 @@ This application is provided to you as an alternative starter project if you do 
 ### Back-end link
 http://udagram-api-kirellos.eba-ymtfzxaw.us-east-1.elasticbeanstalk.com/
 ### Front-end link
-http://udagram-kirellos.s3-website-us-east-1.amazonaws.com/home
+http://udagram-kirellos.s3-website-us-east-1.amazonaws.com
 
 ## Getting Started
 
